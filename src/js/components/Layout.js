@@ -7,7 +7,7 @@ import Header from "./Header";
 import Query from "./Query";
 
 var Typeahead = require('react-typeahead').Typeahead;
-import myJSON from 'json!./county_results.json';
+import myJSON from 'json!./county_results1.json';
 
 
 export default class Layout extends React.Component {
