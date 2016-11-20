@@ -82,52 +82,52 @@ export default class Layout extends React.Component {
             <Carousel dragging={true}>
                 <a href={this.state.infoUrls[0]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[0]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[0]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[0]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[1]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[1]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[1]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[1]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[2]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[2]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[2]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[2]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[3]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[3]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[3]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[3]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[4]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[4]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[4]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[4]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[5]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[5]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[5]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[5]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[6]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[6]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[6]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[6]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[7]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[7]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[7]}/>
+                <img class="sliderImg" src={this.state.imageUrls[7]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[8]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[8]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[8]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[8]}/>
                     <br/>
                 </a>
                 <a href={this.state.infoUrls[9]} target="_blank">
                 <figcaption class="figcaption">Estimated Monthly Price: <br/> <p class="largeFont"> {this.state.monthlyCost[9]} </p> <br/> </figcaption>
-                    <img src={this.state.imageUrls[9]}/>
+                    <img class="sliderImg" src={this.state.imageUrls[9]}/>
                     <br/>
                 </a>
             </Carousel>

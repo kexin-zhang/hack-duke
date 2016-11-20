@@ -97,6 +97,10 @@ button {
     height : 100vh;
 }
 
+.sliderImg{
+  margin-top: -20px;
+}
+
 img{
   width:550px;
   height:350px;

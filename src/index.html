@@ -49,14 +49,15 @@
 
         function getColor(d) {
             d = parseFloat(d);
-            return d == null ? '#ffffff':
-               d > 60 ? '#800026' :
-               d > 50  ? '#BD0026' :
-               d > 40  ? '#E31A1C' :
-               d > 30  ? '#FC4E2A' :
-               d > 20   ? '#FD8D3C' :
-               d > 10   ? '#FEB24C' :
-                        '#FED976';
+
+            return d == null ? '#dadaeb':
+               d > 60 ? '#3f007d' :
+               d > 50  ? '#54278f' :
+               d > 40  ? '#6a51a3' :
+               d > 30  ? '#807dba' :
+               d > 20   ? '#9e9ac8' :
+               d > 10   ? '#bcbddc' :
+                        '#dadaeb';
         }
 
         function onEachFeature(feature, layer) {
