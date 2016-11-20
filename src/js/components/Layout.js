@@ -78,11 +78,6 @@ export default class Layout extends React.Component {
             <a onClick={this.onSearchPressed.bind(this)} class="waves-effect waves-light btn">Search</a>
           </div>
         </div>
-        <div class="row">
-        <div class="col s8">
-          <img src="http://andrewhfarmer.com/react-image-gallery/img/cat6.jpg?0.7785494790878147"></img>
-        </div>
-        <div class="col s4">
         <div class={this.state.default}>
             <Carousel dragging={true}>
                 <a href={this.state.infoUrls[0]} target="_blank">
@@ -102,8 +97,6 @@ export default class Layout extends React.Component {
                 </a>
             </Carousel>
         </div>
-      </div>
-      </div>
       </div>
     );
   }
