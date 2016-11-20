@@ -8,7 +8,7 @@
     <!-- Load Esri Leaflet locally, after cloning this repository -->
     <script src="https://unpkg.com/esri-leaflet@2.0.6"></script>
     <script type="text/javascript" src="county1.js"></script>
-    <script type="text/javascript" src="us-states.js"></script>
+    <!--<script type="text/javascript" src="us-states.js"></script> -->
 
     <style>
       html, body, #map {
@@ -69,6 +69,15 @@
     function zoomToFeature(e) {
         map.fitBounds(e.target.getBounds());
     }
+
+    // map.addLayer(featuresLayer);
+    //
+    // var searchControl = new L.Control.Search({layer: featuresLayer, propertyName: 'Name', circleLocation:true});
+    // searchControl.on('search_locationfound', function(e) {
+    //         e.layer.openPopup().openOn(map);
+    //         map.setZoom(16);
+    // });
+    // map.addControl( searchControl );
 
     </script>
   </body>
