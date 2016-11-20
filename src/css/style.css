@@ -43,6 +43,10 @@ input {
   width:100%;
 }
 
+.row {
+  margin-bottom:0px;
+}
+
 .slider-decorator-0{
   margin-top:60px;
 }
