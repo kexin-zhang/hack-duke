@@ -70,7 +70,7 @@ export default class Layout extends React.Component {
         </div>
         <div class='row center'>
           <div class='col s8'>
-          <Typeahead class='input' options={Object.keys(myJSON)} maxVisible={2}
+          <Typeahead placeholder='County' class='input' options={Object.keys(myJSON)} maxVisible={2}
             onOptionSelected={this.handleQueryChange.bind(this)}
             onChange={this.handleTypingChange.bind(this)}/>
           </div>
