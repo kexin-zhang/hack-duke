@@ -76,6 +76,11 @@
         layer.on({
             click: zoomToFeature
         });
+        var list = "<dl>Name: "
+           + feature.properties.NAME
+           + "<dt>Mobility "
+           + feature.properties.mobility + "</dt>"
+        layer.bindPopup(list);
     }
 
     function zoomToFeature(e) {
