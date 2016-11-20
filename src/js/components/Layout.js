@@ -864,7 +864,6 @@ export default class Layout extends React.Component {
         <div class={this.state.default}>
             <Carousel dragging={true}>
               <img src={this.state.imageUrls[0]} href="google.com"/>
-              <figcaption>house 1</figcaption>
               <img src={this.state.imageUrls[1]}/>
               <img src={this.state.imageUrls[2]}/>
             </Carousel>
