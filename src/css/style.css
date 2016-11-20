@@ -1,0 +1,16 @@
+
+
+.inputWrapper {
+  display:inline-block;margin-right:10px;
+  width: 100px !important;
+}
+.buttonWrapper {
+  display:inline-block;
+  position:fixed;
+}
+.searchWrapper{
+  width:100%;
+}
+.resultsWrapper{
+  width:100%;
+}
