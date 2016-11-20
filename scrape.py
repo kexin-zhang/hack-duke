@@ -1,12 +1,15 @@
 import requests, csv, json
 from bs4 import BeautifulSoup
+import time
 
 with open("mobility1.csv") as infile:
     reader = csv.reader(infile)
-    x = [item[1] for item in reader if item[4] == 'Georgia']
+    x = [item[1] for item in reader if item[4] == 'Georgia' if item[7].strip != '']
+
+print(len(x))
 
 counties = {}
-for item in ["Forsyth", "Fulton", "Gwinnett", "Dekalb", "Cobb"]:
+for item in x:
     print(item)
     url = 'http://www.zillow.com/homes/for_sale/{0}-County-GA_rb/'.format(item)
     response = requests.get(url)
@@ -52,7 +55,6 @@ for item in ["Forsyth", "Fulton", "Gwinnett", "Dekalb", "Cobb"]:
         results.append({"url":href, "image": img, "monthly":monthly, "price":price})
 
     counties[item] = results
-    print(counties)
 
-with open("county_results.json", "w") as out:
-    json.dump(counties, out)
+    with open("county_results1.json", "w") as out:
+        json.dump(counties, out)
