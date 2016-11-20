@@ -16,6 +16,13 @@ input {
 .searchWrapper{
   width:100%;
 }
+.slider-decorator-2{
+  display:none;
+}
+
+.col{
+  padding-left: 0px !important;
+}
 .resultsWrapper{
   width:100%;
 }
@@ -51,6 +58,11 @@ button {
   height: 36px !important;
   line-height: 36px !important;
   padding: 0 2rem !important;
+}
+
+img{
+  height:350px;
+  overflow-y:hidden;
 }
 
 #map {

@@ -95,6 +95,41 @@ export default class Layout extends React.Component {
                     <img src={this.state.imageUrls[2]}/>
                     <br/>
                 </a>
+                <a href={this.state.infoUrls[3]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[3]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[3]}/>
+                    <br/>
+                </a>
+                <a href={this.state.infoUrls[4]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[4]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[4]}/>
+                    <br/>
+                </a>
+                <a href={this.state.infoUrls[5]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[5]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[5]}/>
+                    <br/>
+                </a>
+                <a href={this.state.infoUrls[6]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[6]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[6]}/>
+                    <br/>
+                </a>
+                <a href={this.state.infoUrls[7]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[7]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[7]}/>
+                    <br/>
+                </a>
+                <a href={this.state.infoUrls[8]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[8]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[8]}/>
+                    <br/>
+                </a>
+                <a href={this.state.infoUrls[9]} target="_blank">
+                <figcaption class="figcaption">Estimated Monthly Price: <br/>{this.state.monthlyCost[9]} <br/> </figcaption>
+                    <img src={this.state.imageUrls[9]}/>
+                    <br/>
+                </a>
             </Carousel>
         </div>
       </div>
