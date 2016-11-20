@@ -1,13 +1,24 @@
 html{
   background-color: #b19cd9;
-  font-weight: 900 !important;
 }
 input {
   color: #ffffff !important;
+  margin-left:40px !important;
+  width:325px !important;
+  font-size:40px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.typeahead-option{
+  font-size:40px !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 .inputWrapper {
   display:inline-block;margin-right:10px;
-  width: 100px !important;
+  width: 200px !important;
 }
 .buttonWrapper {
   display:inline-block;
@@ -16,9 +27,30 @@ input {
 .searchWrapper{
   width:100%;
 }
+.slider-decorator-2{
+  display:none;
+}
+
+.col{
+  padding-left: 0px !important;
+}
+
+.s4{
+  padding-left: 10px !important;
+  padding-right: 20px !important;
+}
 .resultsWrapper{
   width:100%;
 }
+
+.slider-decorator-0{
+  margin-top:60px;
+}
+
+.slider-decorator-1{
+  margin-top:45px;
+}
+
 .figcaption{
   color: #ffffff !important;
   font-family: 'Roboto', sans-serif !important;
@@ -53,6 +85,17 @@ button {
   padding: 0 2rem !important;
 }
 
+img{
+  width:550px;
+  height:350px;
+  overflow:hidden;
+  margin-top:-20px;
+}
+.largeFont{
+  font-size: 40px;
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+}
 #map {
     margin:0;
     padding:0;
