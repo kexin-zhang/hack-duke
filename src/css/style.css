@@ -1,5 +1,10 @@
-
-
+html{
+  background-color: #b19cd9;
+  font-weight: 900 !important;
+}
+input {
+  color: #ffffff !important;
+}
 .inputWrapper {
   display:inline-block;margin-right:10px;
   width: 100px !important;
@@ -14,8 +19,37 @@
 .resultsWrapper{
   width:100%;
 }
+.figcaption{
+  color: #ffffff !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 20px !important;
+}
 
+.slider-decorator-2{
+  margin-top: 20px;
+}
+
+h1 {
+    color: #ffffff !important;
+}
 .small{
   margin-top:50px;
-  width:60% !important;
+}
+
+.slider{
+  width:800px !important;
+  margin:auto;
+}
+
+button {
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: #4b0082 !important;
+  text-align: center !important;
+  letter-spacing: .5px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+  padding: 0 2rem !important;
 }
