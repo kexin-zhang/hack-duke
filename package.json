@@ -32,7 +32,10 @@
     "react": "^15.4.0",
     "react-coverflow": "^0.2.3",
     "react-dom": "^15.4.0",
+    "react-responsive-carousel": "^3.0.21",
+    "react-slick": "^0.14.5",
     "react-typeahead": "^2.0.0-alpha.5",
+    "slick-carousel": "^1.6.0",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   }
